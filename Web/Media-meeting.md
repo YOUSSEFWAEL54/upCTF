@@ -71,7 +71,7 @@ session.post(login_url, data=credentials)
 
 while True:
     # score value
-    protected_url = 'http://46.225.117.62:30007/api/me'
+    url = 'http://46.225.117.62:30007/api/me'
     response = session.get(protected_url)
     
     # Simple parsing logic from your original code
