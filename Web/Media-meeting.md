@@ -74,7 +74,7 @@ while True:
     url = 'http://46.225.117.62:30007/api/me'
     response = session.get(protected_url)
     
-    # Simple parsing logic from your original code
+    # score
     score = response.text.split(",")[1].split(",")[0].split(":")[1]
 
     if int(score) < 777:
