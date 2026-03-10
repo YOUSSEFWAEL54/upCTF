@@ -45,7 +45,7 @@ While the intended path likely involved an **XS-Leak** via the `/api/hint` and `
 
 ### **3. Exploitation (Brute-Force Strategy) (unintended path)** 
 
-Because a correct `cross` yields 69 points and a failure only resets the progress, we can repeatedly send `cross` requests. Eventually, the sequence of "correct" moves will align enough times to surpass 777 points without needing to know the `GAME_SEED`.
+Because a correct `cross` yields 69 points and a failure only resets the progress, we can repeatedly send `cross` requests. Eventually, the sequence of "correct" moves will align enough times to surpass 777 points.
 
 #### **Exploit Script**
 
